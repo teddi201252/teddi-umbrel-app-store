@@ -5,10 +5,23 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: sparkles-hello-world_server_1
-      APP_PORT: 3000
-    
-  server:
-    image: getumbrel/community-app-store-hello-world:latest
-    user: "1000:1000"
-    init: true
+      APP_HOST: crafty_controller-crafty_1
+      APP_PORT: 8443
+      
+  crafty:
+    container_name: crafty_container
+    image: registry.gitlab.com/crafty-controller/crafty-4:latest
+    restart: always
+    environment:
+        - TZ=Etc/UTC
+    ports:
+        - "8443:8443" # HTTPS
+        - "8123:8123" # DYNMAP
+        - "19132:19132/udp" # BEDROCK
+        - "25500-25600:25500-25600" # MC SERV PORT RANGE
+    volumes:
+        - ${APP_DATA_DIR}/backups:/crafty/backups
+        - ${APP_DATA_DIR}/logs:/crafty/logs
+        - ${APP_DATA_DIR}/servers:/crafty/servers
+        - ${APP_DATA_DIR}/config:/crafty/app/config
+        - ${APP_DATA_DIR}/import:/crafty/import
