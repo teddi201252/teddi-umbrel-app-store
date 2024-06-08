@@ -2,7 +2,7 @@ manifestVersion: 1
 id: teddi-store-crafty-controller
 name: Crafty Controller
 tagline: Minecraft server manager
-icon: https://svgur.com/i/mvA.svg
+icon: https://docs.craftycontrol.com/img/favicon.ico
 category: Development
 version: "1.0.0"
 port: 8443
@@ -12,12 +12,8 @@ developer: Teddi
 website: https://umbrel.com
 submitter: Teddi
 submission: https://github.com/getumbrel/umbrel-hello-world-app
-repo: https://github.com/getumbrel/umbrel-hello-world-app
-support: https://github.com/getumbrel/umbrel-hello-world-app/issues
-gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
+repo: https://github.com/teddi201252/teddi-umbrel-app-store/teddi-store-crafty-controller
+support: https://github.com/teddi201252/teddi-umbrel-app-store/teddi-store-crafty-controller/issues
 releaseNotes: >
   Add what's new in the latest version of your app here.
 dependencies: []
