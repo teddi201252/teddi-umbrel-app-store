@@ -1,16 +1,13 @@
 manifestVersion: 1
-id: sparkles-hello-world
-name: Hello World
-tagline: Replace this tagline with your app's tagline
+id: crafty_controller
+name: Crafty Controller
+tagline: minecraft
 icon: https://svgur.com/i/mvA.svg
 category: Development
 version: "1.0.0"
-port: 4000
+port: 8443
 description: >-
-  Add your app's description here.
-
-
-  You can also add newlines!
+  UmbrelOS port of Crafty Controller
 
 developer: Umbrel
 website: https://umbrel.com
