@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: crafty-controller_server_1
+      APP_HOST: teddi-store-crafty-controller_server_1
       APP_PORT: 8443
       
   server:
