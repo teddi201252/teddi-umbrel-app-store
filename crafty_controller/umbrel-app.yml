@@ -9,9 +9,9 @@ port: 8443
 description: >-
   UmbrelOS port of Crafty Controller
 
-developer: Umbrel
+developer: Teddi
 website: https://umbrel.com
-submitter: Umbrel
+submitter: Teddi
 submission: https://github.com/getumbrel/umbrel-hello-world-app
 repo: https://github.com/getumbrel/umbrel-hello-world-app
 support: https://github.com/getumbrel/umbrel-hello-world-app/issues
