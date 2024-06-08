@@ -1,14 +1,13 @@
 manifestVersion: 1
 id: crafty-controller
 name: Crafty Controller
-tagline: minecraft
+tagline: Minecraft server manager
 icon: https://svgur.com/i/mvA.svg
 category: Development
 version: "1.0.0"
 port: 8443
-description: >-
+description: >
   UmbrelOS port of Crafty Controller
-
 developer: Teddi
 website: https://umbrel.com
 submitter: Teddi
@@ -19,7 +18,8 @@ gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
-releaseNotes: >-
+releaseNotes: >
   Add what's new in the latest version of your app here.
 dependencies: []
 path: ""
+defaultPassword: ""
